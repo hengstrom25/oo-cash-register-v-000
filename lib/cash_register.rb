@@ -20,9 +20,9 @@ class CashRegister
   end
   
   def apply_discount
-    @total = total - (discount/100)*@total
+    @total = total - (discount/100.0)*@total
     if @discount = 0
-      
+      return "There is "
   end
   
   def void_last_transaction
