@@ -24,7 +24,7 @@ class CashRegister
     if @discount = 0
       return "There is no discount to apply."
     else
-      return "After the discount, the total comes to $#{total.to_}i."
+      return "After the discount, the total comes to $#{total.to_i}."
     end
     @total
   end
