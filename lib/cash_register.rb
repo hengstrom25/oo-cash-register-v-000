@@ -22,7 +22,7 @@ class CashRegister
   def apply_discount
     @total = total - (discount/100.0)*@total
     if @discount = 0
-      return "There is "
+      return "There is no discount to apply."
   end
   
   def void_last_transaction
